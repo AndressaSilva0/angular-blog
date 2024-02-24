@@ -4,10 +4,10 @@
     <img src="{{photoCover}}" alt="Imagem do filme O menino e a Garça" height="200px" srcset="">
   </div>
   <div class="big_card__title">
-    <h1><a>{{cardTitle}}</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
   </div>
   <div class="big_card__description">
-    <p><a href="#">{{cardDescription}}</a></p>
+    <p><a [routerLink]="['content', Id]">{{cardDescription}}</a></p>
   </div>
 </div>
 
