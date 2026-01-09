@@ -1,0 +1,74 @@
+.contato__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    padding-top: 150px;
+    /* Header spacing */
+    background-color: var(--ghibli-cream);
+}
+
+.contato__card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 500px;
+}
+
+.contato__card h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--ghibli-green);
+}
+
+.contato__card p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--ghibli-text);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--ghibli-dark-blue);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--ghibli-blue);
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--ghibli-blue);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--ghibli-accent);
+}

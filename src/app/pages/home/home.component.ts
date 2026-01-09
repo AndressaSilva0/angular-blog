@@ -1,12 +1,16 @@
-import { Component, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { newsFake, dataFake } from '../../data/dataFake';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css'] // Correction: styleUrl -> styleUrls
 })
-export class HomeComponent {
-  Id:string = "0"
-  constructor(){}
+export class HomeComponent implements OnInit {
+  news = newsFake;
+  films = dataFake;
 
+  constructor() { }
+
+  ngOnInit(): void { }
 }

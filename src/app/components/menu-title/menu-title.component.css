@@ -5,19 +5,25 @@
 }
 
 .container__menu-title>h1 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 80px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  /* More balanced size */
   font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+  font-weight: 700;
+  color: var(--ghibli-green);
+  /* Forest green */
   display: flex;
   justify-content: center;
-
+  text-align: center;
+  letter-spacing: -1px;
 }
 
-.container__menu-title>hr{
-  margin-top: 20px;
-  margin-bottom: 5px;
+.container__menu-title>hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--ghibli-blue);
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
-

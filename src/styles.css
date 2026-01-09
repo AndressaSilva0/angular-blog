@@ -1,15 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+:root {
+  --ghibli-cream: #FFFBF0;
+  /* Soft cream background */
+  --ghibli-green: #2D5E38;
+  /* Deep forest green */
+  --ghibli-blue: #5DADE2;
+  /* Sky blue */
+  --ghibli-text: #333333;
+  /* Soft black */
+  --ghibli-accent: #E74C3C;
+  /* Gentle red accent */
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f8f8f8;
+  /* background-color removal to allow transparency */
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: var(--ghibli-text);
 }
 
-a{
+body {
+  background-color: var(--ghibli-cream);
+  min-height: 100vh;
+}
+
+a {
   text-decoration: none;
-  color: black;
+  color: var(--ghibli-green);
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--ghibli-blue);
 }

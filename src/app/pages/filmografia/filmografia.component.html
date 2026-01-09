@@ -1,0 +1,13 @@
+<div class="filmografia__container">
+  <div class="filmografia__title">
+    <h1>Filmografia do Studio Ghibli</h1>
+  </div>
+  <div class="filmografia__grid">
+    <app-small-card
+      *ngFor="let film of films"
+      [Id]="film.id"
+      [photoCover]="film.photoCover"
+      [cardTitle]="film.title"
+    ></app-small-card>
+  </div>
+</div>

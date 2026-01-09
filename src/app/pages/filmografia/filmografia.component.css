@@ -1,0 +1,21 @@
+.filmografia__container {
+    padding: 2rem;
+    padding-top: 150px;
+    /* Header spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filmografia__title h1 {
+    margin-bottom: 2rem;
+    color: var(--ghibli-green);
+    font-family: 'Poppins', sans-serif;
+}
+
+.filmografia__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
